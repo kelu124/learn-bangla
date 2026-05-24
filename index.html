@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Bangla</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px;
+      color: #1a202c;
+    }
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle {
+      font-size: 0.85rem;
+      color: #718096;
+      margin-bottom: 28px;
+    }
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      max-width: 480px;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 24px 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.1s;
+      min-height: 110px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      user-select: none;
+      border: 2px solid transparent;
+    }
+    .card:active { transform: scale(0.98); }
+    .card.revealed-1 { border-color: #bee3f8; }
+    .card.revealed-2 { border-color: #c6f6d5; }
+    .bengali {
+      font-size: 1.6rem;
+      font-weight: 600;
+      line-height: 1.4;
+      color: #1a202c;
+    }
+    .phonetic {
+      margin-top: 10px;
+      font-style: italic;
+      color: #2b6cb0;
+      font-size: 1rem;
+      display: none;
+    }
+    .translation {
+      margin-top: 6px;
+      color: #276749;
+      font-size: 1rem;
+      font-weight: 500;
+      display: none;
+    }
+    .hint {
+      font-size: 0.72rem;
+      color: #a0aec0;
+      margin-top: 10px;
+      align-self: flex-end;
+    }
+    .card.revealed-1 .phonetic { display: block; }
+    .card.revealed-2 .phonetic { display: block; }
+    .card.revealed-2 .translation { display: block; }
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 28px;
+    }
+    .nav button {
+      background: white;
+      border: 2px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      color: #2d3748;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .nav button:hover { background: #ebf8ff; border-color: #90cdf4; }
+    .nav button:disabled { opacity: 0.35; cursor: default; }
+    .nav button:disabled:hover { background: white; border-color: #e2e8f0; }
+    .page-info {
+      font-size: 0.85rem;
+      color: #718096;
+      min-width: 80px;
+      text-align: center;
+    }
+    .progress {
+      margin-top: 16px;
+      font-size: 0.78rem;
+      color: #a0aec0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🇧🇩 Learn Bangla</h1>
+  <p class="subtitle">Tap a card once for pronunciation, twice for translation</p>
+  <div class="cards" id="cards"></div>
+  <div class="nav">
+    <button id="prev" onclick="changePage(-1)">← Prev</button>
+    <span class="page-info" id="pageInfo"></span>
+    <button id="next" onclick="changePage(1)">Next →</button>
+  </div>
+  <p class="progress" id="progress"></p>
+
+  <script>
+    const sentences = [{"id":1,"bengali":"আমি ভাত খাই।","phonetic":"Aami bhaat khaai.","french":"Je mange du riz.","sent_at":"2026-05-17T12:22:42.746Z"},{"id":2,"bengali":"আপনি কেমন আছেন?","phonetic":"Apni kemon aachen?","french":"Comment allez-vous ?","sent_at":"2026-05-17T12:22:42.746Z"},{"id":3,"bengali":"আজকে রোদ আছে।","phonetic":"Aajke rod ache.","french":"Il y a du soleil aujourd'hui.","sent_at":"2026-05-17T12:22:42.746Z"},{"id":4,"bengali":"আমার নাম লুক।","phonetic":"Aamar naam Luc.","french":"Je m'appelle Luc.","sent_at":"2026-05-17T19:00:45.789Z"},{"id":5,"bengali":"আমি চা পান করি।","phonetic":"Aami chaa paan kori.","french":"Je bois du thé.","sent_at":"2026-05-17T19:00:45.789Z"},{"id":6,"bengali":"আজকে ঠান্ডা।","phonetic":"Aajke thaanda.","french":"Il fait froid aujourd'hui.","sent_at":"2026-05-17T19:00:45.789Z"},{"id":7,"bengali":"আমি ঘুমাই।","phonetic":"Aami ghumaai.","french":"Je dors.","sent_at":"2026-05-18T06:01:01.149Z"},{"id":8,"bengali":"জল ঠান্ডা।","phonetic":"Jal thaanda.","french":"L'eau est froide.","sent_at":"2026-05-18T06:01:01.149Z"},{"id":9,"bengali":"আজকে বৃষ্টি হচ্ছে।","phonetic":"Aajke brrishti hochche.","french":"Il pleut aujourd'hui.","sent_at":"2026-05-18T06:01:01.149Z"},{"id":10,"bengali":"আমি বাজারে যাই।","phonetic":"Aami baajare jaai.","french":"Je vais au marché.","sent_at":"2026-05-18T19:00:35.061Z"},{"id":11,"bengali":"তুমি কোথায় যাচ্ছ?","phonetic":"Tumi kothay jaachho?","french":"Où vas-tu ?","sent_at":"2026-05-18T19:00:35.061Z"},{"id":12,"bengali":"আমি বই পড়ি।","phonetic":"Aami boi pori.","french":"Je lis un livre.","sent_at":"2026-05-18T19:00:35.061Z"},{"id":13,"bengali":"আমি সকালে উঠি।","phonetic":"Aami shokale uthi.","french":"Je me lève le matin.","sent_at":"2026-05-19T06:01:04.145Z"},{"id":14,"bengali":"দরজা খোলো।","phonetic":"Dorja kholo.","french":"Ouvre la porte.","sent_at":"2026-05-19T06:01:04.145Z"},{"id":15,"bengali":"আমি খুশি।","phonetic":"Aami khushi.","french":"Je suis heureux.","sent_at":"2026-05-19T06:01:04.145Z"},{"id":16,"bengali":"আমি গান গাই।","phonetic":"Aami gaan gaai.","french":"Je chante.","sent_at":"2026-05-19T19:00:47.551Z"},{"id":17,"bengali":"বাড়ি কাছে।","phonetic":"Baari kache.","french":"La maison est proche.","sent_at":"2026-05-19T19:00:47.551Z"},{"id":18,"bengali":"আমি কাজ করি।","phonetic":"Aami kaaj kori.","french":"Je travaille.","sent_at":"2026-05-19T19:00:47.551Z"},{"id":19,"bengali":"আমি স্কুলে যাই।","phonetic":"Aami skule jaai.","french":"Je vais à l'école.","sent_at":"2026-05-20T06:01:12.752Z"},{"id":20,"bengali":"আকাশ নীল।","phonetic":"Aakash neel.","french":"Le ciel est bleu.","sent_at":"2026-05-20T06:01:12.752Z"},{"id":21,"bengali":"আমি ক্লান্ত।","phonetic":"Aami klaanto.","french":"Je suis fatigué.","sent_at":"2026-05-20T06:01:12.752Z"},{"id":22,"bengali":"আমি রান্না করি।","phonetic":"Aami raanna kori.","french":"Je cuisine.","sent_at":"2026-05-20T19:00:54.424Z"},{"id":23,"bengali":"বাচ্চারা খেলছে।","phonetic":"Baachhara khelche.","french":"Les enfants jouent.","sent_at":"2026-05-20T19:00:54.424Z"},{"id":24,"bengali":"আমি বাড়ি যাচ্ছি।","phonetic":"Aami baari jaachhi.","french":"Je rentre à la maison.","sent_at":"2026-05-20T19:00:54.424Z"},{"id":25,"bengali":"আমি ফল খাই।","phonetic":"Aami phol khaai.","french":"Je mange des fruits.","sent_at":"2026-05-21T06:00:24.987Z"},{"id":26,"bengali":"রাত হয়েছে।","phonetic":"Raat hoyeche.","french":"Il fait nuit.","sent_at":"2026-05-21T06:00:24.987Z"},{"id":27,"bengali":"তুমি ভালো আছ?","phonetic":"Tumi bhaalo aachho?","french":"Tu vas bien ?","sent_at":"2026-05-21T06:00:24.987Z"},{"id":28,"bengali":"আমি হাঁটছি।","phonetic":"Aami haantchhi.","french":"Je marche.","sent_at":"2026-05-21T19:01:03.750Z"},{"id":29,"bengali":"খাবার গরম।","phonetic":"Khabar gorom.","french":"La nourriture est chaude.","sent_at":"2026-05-21T19:01:03.750Z"},{"id":30,"bengali":"আমি বাংলা শিখছি।","phonetic":"Aami Bangla shikhchhi.","french":"J'apprends le bengali.","sent_at":"2026-05-21T19:01:03.750Z"},{"id":31,"bengali":"আমি দুধ পান করি।","phonetic":"Aami dudh paan kori.","french":"Je bois du lait.","sent_at":"2026-05-22T10:31:49.202Z"},{"id":32,"bengali":"সন্ধ্যা হয়েছে।","phonetic":"Shondhya hoyeche.","french":"Le soir est tombé.","sent_at":"2026-05-22T10:31:49.202Z"},{"id":33,"bengali":"আমি হাসছি।","phonetic":"Aami hashchhi.","french":"Je ris.","sent_at":"2026-05-22T10:31:49.202Z"},{"id":34,"bengali":"আমি জানালা খুলি।","phonetic":"Aami jaanala khuli.","french":"J'ouvre la fenêtre.","sent_at":"2026-05-23T06:01:06.407Z"},{"id":35,"bengali":"আজকে গরম।","phonetic":"Aajke gorom.","french":"Il fait chaud aujourd'hui.","sent_at":"2026-05-23T06:01:06.407Z"},{"id":36,"bengali":"আমি ঘরে আছি।","phonetic":"Aami ghore aachhi.","french":"Je suis à la maison.","sent_at":"2026-05-23T06:01:06.407Z"},{"id":37,"bengali":"আমি খবর পড়ি।","phonetic":"Aami khobor pori.","french":"Je lis les nouvelles.","sent_at":"2026-05-23T19:00:50.897Z"},{"id":38,"bengali":"বাজার দূরে।","phonetic":"Baajaar dure.","french":"Le marché est loin.","sent_at":"2026-05-23T19:00:50.897Z"},{"id":39,"bengali":"আমি রাতে খাই।","phonetic":"Aami raate khaai.","french":"Je mange le soir.","sent_at":"2026-05-23T19:00:50.897Z"},{"id":40,"bengali":"আমি সাঁতার কাটি।","phonetic":"Aami shaantar kaati.","french":"Je nage.","sent_at":"2026-05-24T06:00:24.463Z"},{"id":41,"bengali":"দোকান বন্ধ।","phonetic":"Dokaan bondho.","french":"Le magasin est fermé.","sent_at":"2026-05-24T06:00:24.463Z"},{"id":42,"bengali":"আমি কফি খাই।","phonetic":"Aami kofi khaai.","french":"Je bois du café.","sent_at":"2026-05-24T06:00:24.463Z"}];
+    const PER_PAGE = 3;
+    let page = 0;
+    const totalPages = Math.ceil(sentences.length / PER_PAGE);
+
+    function render() {
+      const start = page * PER_PAGE;
+      const slice = sentences.slice(start, start + PER_PAGE);
+      const container = document.getElementById('cards');
+      container.innerHTML = '';
+      slice.forEach((s, i) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.dataset.state = '0';
+        card.innerHTML = `
+          <div class="bengali">${s.bengali}</div>
+          <div class="phonetic">${s.phonetic}</div>
+          <div class="translation">${s.french}</div>
+          <div class="hint">tap to reveal</div>
+        `;
+        card.addEventListener('click', () => {
+          const st = parseInt(card.dataset.state);
+          if (st === 0) {
+            card.dataset.state = '1';
+            card.classList.add('revealed-1');
+            card.querySelector('.hint').textContent = 'tap for translation';
+          } else if (st === 1) {
+            card.dataset.state = '2';
+            card.classList.remove('revealed-1');
+            card.classList.add('revealed-2');
+            card.querySelector('.hint').textContent = '✓';
+          }
+        });
+        container.appendChild(card);
+      });
+      document.getElementById('prev').disabled = page === 0;
+      document.getElementById('next').disabled = page >= totalPages - 1;
+      document.getElementById('pageInfo').textContent = `${page + 1} / ${totalPages}`;
+      document.getElementById('progress').textContent =
+        `Sentences ${start + 1}–${Math.min(start + PER_PAGE, sentences.length)} of ${sentences.length}`;
+    }
+
+    function changePage(dir) {
+      page = Math.max(0, Math.min(totalPages - 1, page + dir));
+      render();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    render();
+  </script>
+</body>
+</html>
