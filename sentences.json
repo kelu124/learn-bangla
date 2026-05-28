@@ -439,5 +439,26 @@
     "phonetic": "Aami khudhaarto.",
     "french": "J'ai faim.",
     "sent_at": "2026-05-28T06:00:36.030Z"
+  },
+  {
+    "id": 64,
+    "bengali": "আমি বাজার করি।",
+    "phonetic": "Aami baajaar kori.",
+    "french": "Je fais les courses.",
+    "sent_at": "2026-05-28T19:02:06.428Z"
+  },
+  {
+    "id": 65,
+    "bengali": "কুকুর দৌড়াচ্ছে।",
+    "phonetic": "Kukur douraachchhe.",
+    "french": "Le chien court.",
+    "sent_at": "2026-05-28T19:02:06.428Z"
+  },
+  {
+    "id": 66,
+    "bengali": "আমি তৃষ্ণার্ত।",
+    "phonetic": "Aami trishnarto.",
+    "french": "J'ai soif.",
+    "sent_at": "2026-05-28T19:02:06.428Z"
   }
 ]
