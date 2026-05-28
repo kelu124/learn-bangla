@@ -292,5 +292,152 @@
     "phonetic": "Aami kofi khaai.",
     "french": "Je bois du café.",
     "sent_at": "2026-05-24T06:00:24.463Z"
+  },
+  {
+    "id": 43,
+    "bengali": "আমি টেলিভিশন দেখি।",
+    "phonetic": "Aami television dekhi.",
+    "french": "Je regarde la télévision.",
+    "sent_at": "2026-05-24T19:00:21.696Z"
+  },
+  {
+    "id": 44,
+    "bengali": "মাছ সুস্বাদু।",
+    "phonetic": "Maachh shushadu.",
+    "french": "Le poisson est délicieux.",
+    "sent_at": "2026-05-24T19:00:21.696Z"
+  },
+  {
+    "id": 45,
+    "bengali": "আমি চিঠি লিখি।",
+    "phonetic": "Aami chithi likhi.",
+    "french": "J'écris une lettre.",
+    "sent_at": "2026-05-24T19:00:21.696Z"
+  },
+  {
+    "id": 46,
+    "bengali": "আমি ছবি তুলি।",
+    "phonetic": "Aami chhobi tuli.",
+    "french": "Je prends des photos.",
+    "sent_at": "2026-05-25T06:01:07.753Z"
+  },
+  {
+    "id": 47,
+    "bengali": "বাস আসছে।",
+    "phonetic": "Baash aashche.",
+    "french": "Le bus arrive.",
+    "sent_at": "2026-05-25T06:01:07.753Z"
+  },
+  {
+    "id": 48,
+    "bengali": "আমি বিশ্রাম নিচ্ছি।",
+    "phonetic": "Aami bishram nicchhi.",
+    "french": "Je me repose.",
+    "sent_at": "2026-05-25T06:01:07.753Z"
+  },
+  {
+    "id": 49,
+    "bengali": "আমি বাগানে আছি।",
+    "phonetic": "Aami baagane aachhi.",
+    "french": "Je suis dans le jardin.",
+    "sent_at": "2026-05-25T19:00:55.035Z"
+  },
+  {
+    "id": 50,
+    "bengali": "ট্রেন দেরি করছে।",
+    "phonetic": "Train deri korche.",
+    "french": "Le train est en retard.",
+    "sent_at": "2026-05-25T19:00:55.035Z"
+  },
+  {
+    "id": 51,
+    "bengali": "আমি জামা পরি।",
+    "phonetic": "Aami jaama pori.",
+    "french": "Je m'habille.",
+    "sent_at": "2026-05-25T19:00:55.035Z"
+  },
+  {
+    "id": 52,
+    "bengali": "আমি মাংস খাই না।",
+    "phonetic": "Aami maangsh khaai na.",
+    "french": "Je ne mange pas de viande.",
+    "sent_at": "2026-05-26T06:00:31.639Z"
+  },
+  {
+    "id": 53,
+    "bengali": "ঘড়ি বাজছে।",
+    "phonetic": "Ghori baajche.",
+    "french": "L'horloge sonne.",
+    "sent_at": "2026-05-26T06:00:31.639Z"
+  },
+  {
+    "id": 54,
+    "bengali": "আমি হাত ধুই।",
+    "phonetic": "Aami haat dhui.",
+    "french": "Je me lave les mains.",
+    "sent_at": "2026-05-26T06:00:31.639Z"
+  },
+  {
+    "id": 55,
+    "bengali": "সূর্য উঠছে।",
+    "phonetic": "Shurjo uthche.",
+    "french": "Le soleil se lève.",
+    "sent_at": "2026-05-27T06:00:58.853Z"
+  },
+  {
+    "id": 56,
+    "bengali": "আমি চুল আঁচড়াই।",
+    "phonetic": "Aami chul aanchrai.",
+    "french": "Je me coiffe.",
+    "sent_at": "2026-05-27T06:00:58.853Z"
+  },
+  {
+    "id": 57,
+    "bengali": "রাস্তা ভিজে।",
+    "phonetic": "Raasta bhije.",
+    "french": "La rue est mouillée.",
+    "sent_at": "2026-05-27T06:00:58.853Z"
+  },
+  {
+    "id": 58,
+    "bengali": "পাখি গান গায়।",
+    "phonetic": "Pakhi gaan gaay.",
+    "french": "L'oiseau chante.",
+    "sent_at": "2026-05-27T19:00:55.794Z"
+  },
+  {
+    "id": 59,
+    "bengali": "আমি ওষুধ খাই।",
+    "phonetic": "Aami oushodh khaai.",
+    "french": "Je prends des médicaments.",
+    "sent_at": "2026-05-27T19:00:55.794Z"
+  },
+  {
+    "id": 60,
+    "bengali": "চিনি মিষ্টি।",
+    "phonetic": "Chini mishti.",
+    "french": "Le sucre est doux.",
+    "sent_at": "2026-05-27T19:00:55.794Z"
+  },
+  {
+    "id": 61,
+    "bengali": "আমি দাঁত মাজি।",
+    "phonetic": "Aami daant maaji.",
+    "french": "Je me brosse les dents.",
+    "sent_at": "2026-05-28T06:00:36.030Z"
+  },
+  {
+    "id": 62,
+    "bengali": "বিড়াল ঘুমাচ্ছে।",
+    "phonetic": "Biral ghumaachhe.",
+    "french": "Le chat dort.",
+    "sent_at": "2026-05-28T06:00:36.030Z"
+  },
+  {
+    "id": 63,
+    "bengali": "আমি ক্ষুধার্ত।",
+    "phonetic": "Aami khudhaarto.",
+    "french": "J'ai faim.",
+    "sent_at": "2026-05-28T06:00:36.030Z"
   }
 ]
