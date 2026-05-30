@@ -481,5 +481,26 @@
     "phonetic": "Dokaan khola.",
     "french": "Le magasin est ouvert.",
     "sent_at": "2026-05-29T19:00:51.459Z"
+  },
+  {
+    "id": 70,
+    "bengali": "আমি স্নান করি।",
+    "phonetic": "Aami shnaan kori.",
+    "french": "Je me douche.",
+    "sent_at": "2026-05-30T06:00:56.218Z"
+  },
+  {
+    "id": 71,
+    "bengali": "গরু দুধ দেয়।",
+    "phonetic": "Goru dudh dey.",
+    "french": "La vache donne du lait.",
+    "sent_at": "2026-05-30T06:00:56.218Z"
+  },
+  {
+    "id": 72,
+    "bengali": "আমি সাইকেল চালাই।",
+    "phonetic": "Aami saikel chaalai.",
+    "french": "Je fais du vélo.",
+    "sent_at": "2026-05-30T06:00:56.218Z"
   }
 ]
