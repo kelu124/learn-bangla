@@ -502,5 +502,26 @@
     "phonetic": "Aami saikel chaalai.",
     "french": "Je fais du vélo.",
     "sent_at": "2026-05-30T06:00:56.218Z"
+  },
+  {
+    "id": 73,
+    "bengali": "আমি চিনি কিনি।",
+    "phonetic": "Aami chini kini.",
+    "french": "J'achète du sucre.",
+    "sent_at": "2026-05-30T19:00:51.728Z"
+  },
+  {
+    "id": 74,
+    "bengali": "বাতাস ঠান্ডা।",
+    "phonetic": "Baataas thaanda.",
+    "french": "Le vent est froid.",
+    "sent_at": "2026-05-30T19:00:51.728Z"
+  },
+  {
+    "id": 75,
+    "bengali": "আমি ফোন করি।",
+    "phonetic": "Aami phon kori.",
+    "french": "Je passe un appel.",
+    "sent_at": "2026-05-30T19:00:51.728Z"
   }
 ]
