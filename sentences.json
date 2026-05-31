@@ -544,5 +544,26 @@
     "phonetic": "Aami gaari chaalai.",
     "french": "Je conduis une voiture.",
     "sent_at": "2026-05-31T06:00:45.520Z"
+  },
+  {
+    "id": 79,
+    "bengali": "আমি লবণ কিনি।",
+    "phonetic": "Aami lobon kini.",
+    "french": "J'achète du sel.",
+    "sent_at": "2026-05-31T19:00:26.158Z"
+  },
+  {
+    "id": 80,
+    "bengali": "বৃষ্টি থামছে।",
+    "phonetic": "Brrishti thamche.",
+    "french": "La pluie s'arrête.",
+    "sent_at": "2026-05-31T19:00:26.158Z"
+  },
+  {
+    "id": 81,
+    "bengali": "আমি চিঠি পাই।",
+    "phonetic": "Aami chithi paai.",
+    "french": "Je reçois une lettre.",
+    "sent_at": "2026-05-31T19:00:26.158Z"
   }
 ]
