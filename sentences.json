@@ -565,5 +565,26 @@
     "phonetic": "Aami chithi paai.",
     "french": "Je reçois une lettre.",
     "sent_at": "2026-05-31T19:00:26.158Z"
+  },
+  {
+    "id": 82,
+    "bengali": "আমি জুতা পরি।",
+    "phonetic": "Aami juta pori.",
+    "french": "Je mets mes chaussures.",
+    "sent_at": "2026-06-01T06:00:16.508Z"
+  },
+  {
+    "id": 83,
+    "bengali": "মাঠ সবুজ।",
+    "phonetic": "Maath shobuj.",
+    "french": "Le champ est vert.",
+    "sent_at": "2026-06-01T06:00:16.508Z"
+  },
+  {
+    "id": 84,
+    "bengali": "আমি গল্প বলি।",
+    "phonetic": "Aami golpo boli.",
+    "french": "Je raconte une histoire.",
+    "sent_at": "2026-06-01T06:00:16.508Z"
   }
 ]
