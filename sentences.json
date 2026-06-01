@@ -586,5 +586,26 @@
     "phonetic": "Aami golpo boli.",
     "french": "Je raconte une histoire.",
     "sent_at": "2026-06-01T06:00:16.508Z"
+  },
+  {
+    "id": 85,
+    "bengali": "নদী বড়।",
+    "phonetic": "Nodi boro.",
+    "french": "La rivière est grande.",
+    "sent_at": "2026-06-01T19:01:04.161Z"
+  },
+  {
+    "id": 86,
+    "bengali": "আমি বাজনা শুনি।",
+    "phonetic": "Aami baajnaa shuni.",
+    "french": "J'écoute de la musique.",
+    "sent_at": "2026-06-01T19:01:04.161Z"
+  },
+  {
+    "id": 87,
+    "bengali": "শীত আসছে।",
+    "phonetic": "Sheet aashche.",
+    "french": "L'hiver arrive.",
+    "sent_at": "2026-06-01T19:01:04.161Z"
   }
 ]
