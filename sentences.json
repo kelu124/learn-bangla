@@ -628,5 +628,26 @@
     "phonetic": "Aami chutite aachhi.",
     "french": "Je suis en vacances.",
     "sent_at": "2026-06-02T06:00:47.801Z"
+  },
+  {
+    "id": 91,
+    "bengali": "আমি চিকিৎসকের কাছে যাই।",
+    "phonetic": "Aami chikitshaker kache jaai.",
+    "french": "Je vais chez le médecin.",
+    "sent_at": "2026-06-02T19:01:45.049Z"
+  },
+  {
+    "id": 92,
+    "bengali": "পাহাড় উঁচু।",
+    "phonetic": "Paahar unchu.",
+    "french": "La montagne est haute.",
+    "sent_at": "2026-06-02T19:01:45.049Z"
+  },
+  {
+    "id": 93,
+    "bengali": "আমি হাট করি।",
+    "phonetic": "Aami haat kori.",
+    "french": "Je vais au marché hebdomadaire.",
+    "sent_at": "2026-06-02T19:01:45.049Z"
   }
 ]
