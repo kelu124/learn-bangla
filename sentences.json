@@ -607,5 +607,26 @@
     "phonetic": "Sheet aashche.",
     "french": "L'hiver arrive.",
     "sent_at": "2026-06-01T19:01:04.161Z"
+  },
+  {
+    "id": 88,
+    "bengali": "আমি আম খাই।",
+    "phonetic": "Aami aam khaai.",
+    "french": "Je mange une mangue.",
+    "sent_at": "2026-06-02T06:00:47.801Z"
+  },
+  {
+    "id": 89,
+    "bengali": "দরজা বন্ধ।",
+    "phonetic": "Dorja bondho.",
+    "french": "La porte est fermée.",
+    "sent_at": "2026-06-02T06:00:47.801Z"
+  },
+  {
+    "id": 90,
+    "bengali": "আমি ছুটিতে আছি।",
+    "phonetic": "Aami chutite aachhi.",
+    "french": "Je suis en vacances.",
+    "sent_at": "2026-06-02T06:00:47.801Z"
   }
 ]
