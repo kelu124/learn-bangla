@@ -670,5 +670,26 @@
     "phonetic": "Aami klaashe jaai.",
     "french": "Je vais en cours.",
     "sent_at": "2026-06-03T06:00:33.351Z"
+  },
+  {
+    "id": 97,
+    "bengali": "আমি মাছ ধরি।",
+    "phonetic": "Aami maachh dhori.",
+    "french": "Je pêche.",
+    "sent_at": "2026-06-03T19:00:26.565Z"
+  },
+  {
+    "id": 98,
+    "bengali": "ঘর উষ্ণ।",
+    "phonetic": "Ghor ushno.",
+    "french": "La maison est chaude.",
+    "sent_at": "2026-06-03T19:00:26.565Z"
+  },
+  {
+    "id": 99,
+    "bengali": "আমি ভোরে উঠি।",
+    "phonetic": "Aami bhore uthi.",
+    "french": "Je me lève à l'aube.",
+    "sent_at": "2026-06-03T19:00:26.565Z"
   }
 ]
