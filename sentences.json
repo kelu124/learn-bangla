@@ -649,5 +649,26 @@
     "phonetic": "Aami haat kori.",
     "french": "Je vais au marché hebdomadaire.",
     "sent_at": "2026-06-02T19:01:45.049Z"
+  },
+  {
+    "id": 94,
+    "bengali": "আমি বই কিনি।",
+    "phonetic": "Aami boi kini.",
+    "french": "J'achète un livre.",
+    "sent_at": "2026-06-03T06:00:33.351Z"
+  },
+  {
+    "id": 95,
+    "bengali": "সমুদ্র দূরে।",
+    "phonetic": "Shomudro dure.",
+    "french": "La mer est loin.",
+    "sent_at": "2026-06-03T06:00:33.351Z"
+  },
+  {
+    "id": 96,
+    "bengali": "আমি ক্লাসে যাই।",
+    "phonetic": "Aami klaashe jaai.",
+    "french": "Je vais en cours.",
+    "sent_at": "2026-06-03T06:00:33.351Z"
   }
 ]
