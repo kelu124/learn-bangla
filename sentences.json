@@ -691,5 +691,26 @@
     "phonetic": "Aami bhore uthi.",
     "french": "Je me lève à l'aube.",
     "sent_at": "2026-06-03T19:00:26.565Z"
+  },
+  {
+    "id": 100,
+    "bengali": "আমি বাজনা বাজাই।",
+    "phonetic": "Aami baajnaa baajhaai.",
+    "french": "Je joue de la musique.",
+    "sent_at": "2026-06-04T06:00:12.767Z"
+  },
+  {
+    "id": 101,
+    "bengali": "রোদ উঠছে।",
+    "phonetic": "Rod uthche.",
+    "french": "Le soleil se lève.",
+    "sent_at": "2026-06-04T06:00:12.767Z"
+  },
+  {
+    "id": 102,
+    "bengali": "আমি কলম দিয়ে লিখি।",
+    "phonetic": "Aami kolom diye likhi.",
+    "french": "J'écris avec un stylo.",
+    "sent_at": "2026-06-04T06:00:12.767Z"
   }
 ]
