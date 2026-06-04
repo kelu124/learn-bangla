@@ -712,5 +712,26 @@
     "phonetic": "Aami kolom diye likhi.",
     "french": "J'écris avec un stylo.",
     "sent_at": "2026-06-04T06:00:12.767Z"
+  },
+  {
+    "id": 103,
+    "bengali": "আমি চা বানাই।",
+    "phonetic": "Aami chaa baanai.",
+    "french": "Je prépare du thé.",
+    "sent_at": "2026-06-04T19:01:01.733Z"
+  },
+  {
+    "id": 104,
+    "bengali": "ছেলেটি দৌড়াচ্ছে।",
+    "phonetic": "Chheleti douraachchhe.",
+    "french": "Le garçon court.",
+    "sent_at": "2026-06-04T19:01:01.733Z"
+  },
+  {
+    "id": 105,
+    "bengali": "আমি রাত জাগি।",
+    "phonetic": "Aami raat jaagi.",
+    "french": "Je veille tard.",
+    "sent_at": "2026-06-04T19:01:01.733Z"
   }
 ]
