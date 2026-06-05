@@ -733,5 +733,26 @@
     "phonetic": "Aami raat jaagi.",
     "french": "Je veille tard.",
     "sent_at": "2026-06-04T19:01:01.733Z"
+  },
+  {
+    "id": 106,
+    "bengali": "আমি বাজারে সবজি কিনি।",
+    "phonetic": "Aami baajare shobji kini.",
+    "french": "J'achète des légumes au marché.",
+    "sent_at": "2026-06-05T06:00:47.226Z"
+  },
+  {
+    "id": 107,
+    "bengali": "রাস্তা লম্বা।",
+    "phonetic": "Raasta lomba.",
+    "french": "La route est longue.",
+    "sent_at": "2026-06-05T06:00:47.226Z"
+  },
+  {
+    "id": 108,
+    "bengali": "আমি সন্ধ্যায় হাঁটি।",
+    "phonetic": "Aami shondhyaay haanti.",
+    "french": "Je me promène le soir.",
+    "sent_at": "2026-06-05T06:00:47.226Z"
   }
 ]
