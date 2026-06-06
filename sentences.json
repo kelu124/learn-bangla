@@ -775,5 +775,26 @@
     "phonetic": "Baagaan shundor.",
     "french": "Le jardin est beau.",
     "sent_at": "2026-06-05T19:00:46.224Z"
+  },
+  {
+    "id": 112,
+    "bengali": "আমি খেলাধুলা করি।",
+    "phonetic": "Aami kheladhula kori.",
+    "french": "Je fais du sport.",
+    "sent_at": "2026-06-06T06:00:37.873Z"
+  },
+  {
+    "id": 113,
+    "bengali": "আকাশ মেঘলা।",
+    "phonetic": "Aakash meghla.",
+    "french": "Le ciel est nuageux.",
+    "sent_at": "2026-06-06T06:00:37.873Z"
+  },
+  {
+    "id": 114,
+    "bengali": "আমি বাড়ি পরিষ্কার করি।",
+    "phonetic": "Aami baari porishhkaar kori.",
+    "french": "Je nettoie la maison.",
+    "sent_at": "2026-06-06T06:00:37.873Z"
   }
 ]
