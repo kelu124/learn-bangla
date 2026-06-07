@@ -817,5 +817,26 @@
     "phonetic": "Raasta shaanto.",
     "french": "La rue est calme.",
     "sent_at": "2026-06-06T19:00:27.828Z"
+  },
+  {
+    "id": 118,
+    "bengali": "আমি সকালে উঠি।",
+    "phonetic": "Aami shokale uthi.",
+    "french": "Je me lève le matin.",
+    "sent_at": "2026-06-07T06:00:11.143Z"
+  },
+  {
+    "id": 119,
+    "bengali": "ফুলটি লাল।",
+    "phonetic": "Phulti laal.",
+    "french": "La fleur est rouge.",
+    "sent_at": "2026-06-07T06:00:11.143Z"
+  },
+  {
+    "id": 120,
+    "bengali": "আমি বাজারে যাই।",
+    "phonetic": "Aami baajare jaai.",
+    "french": "Je vais au marché.",
+    "sent_at": "2026-06-07T06:00:11.143Z"
   }
 ]
