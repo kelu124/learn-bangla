@@ -859,5 +859,26 @@
     "phonetic": "Shondhya hoyechhe.",
     "french": "Le soir est tombé.",
     "sent_at": "2026-06-07T19:01:25.204Z"
+  },
+  {
+    "id": 124,
+    "bengali": "আমি গোসল করি।",
+    "phonetic": "Aami goshol kori.",
+    "french": "Je prends une douche.",
+    "sent_at": "2026-06-08T06:00:11.902Z"
+  },
+  {
+    "id": 125,
+    "bengali": "পাখিটি গান করছে।",
+    "phonetic": "Paaakhiti gaan korchhe.",
+    "french": "L'oiseau chante.",
+    "sent_at": "2026-06-08T06:00:11.902Z"
+  },
+  {
+    "id": 126,
+    "bengali": "আমি জুতা পরি।",
+    "phonetic": "Aami juta pori.",
+    "french": "Je mets mes chaussures.",
+    "sent_at": "2026-06-08T06:00:11.902Z"
   }
 ]
