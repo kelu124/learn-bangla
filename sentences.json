@@ -880,5 +880,26 @@
     "phonetic": "Aami juta pori.",
     "french": "Je mets mes chaussures.",
     "sent_at": "2026-06-08T06:00:11.902Z"
+  },
+  {
+    "id": 127,
+    "bengali": "নদীটি গভীর।",
+    "phonetic": "Noditi gobhir.",
+    "french": "La rivière est profonde.",
+    "sent_at": "2026-06-08T19:00:30.967Z"
+  },
+  {
+    "id": 128,
+    "bengali": "আমি চুল আঁচড়াই।",
+    "phonetic": "Aami chul aanchraai.",
+    "french": "Je me brosse les cheveux.",
+    "sent_at": "2026-06-08T19:00:30.967Z"
+  },
+  {
+    "id": 129,
+    "bengali": "খাবারটি মিষ্টি।",
+    "phonetic": "Khaabaarti mishti.",
+    "french": "La nourriture est sucrée.",
+    "sent_at": "2026-06-08T19:00:30.967Z"
   }
 ]
