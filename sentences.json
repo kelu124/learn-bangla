@@ -901,5 +901,26 @@
     "phonetic": "Khaabaarti mishti.",
     "french": "La nourriture est sucrée.",
     "sent_at": "2026-06-08T19:00:30.967Z"
+  },
+  {
+    "id": 130,
+    "bengali": "আমি চিঠি লিখি।",
+    "phonetic": "Aami chithi likhi.",
+    "french": "J'écris une lettre.",
+    "sent_at": "2026-06-09T06:00:19.325Z"
+  },
+  {
+    "id": 131,
+    "bengali": "ঘরটি উষ্ণ।",
+    "phonetic": "Ghoriti ushno.",
+    "french": "La pièce est chaude.",
+    "sent_at": "2026-06-09T06:00:19.325Z"
+  },
+  {
+    "id": 132,
+    "bengali": "আমি মাছ খাই।",
+    "phonetic": "Aami maachh khaai.",
+    "french": "Je mange du poisson.",
+    "sent_at": "2026-06-09T06:00:19.325Z"
   }
 ]
