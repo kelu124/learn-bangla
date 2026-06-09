@@ -922,5 +922,26 @@
     "phonetic": "Aami maachh khaai.",
     "french": "Je mange du poisson.",
     "sent_at": "2026-06-09T06:00:19.325Z"
+  },
+  {
+    "id": 133,
+    "bengali": "আমি কফি পান করি।",
+    "phonetic": "Aami kophee paan kori.",
+    "french": "Je bois du café.",
+    "sent_at": "2026-06-09T19:00:30.771Z"
+  },
+  {
+    "id": 134,
+    "bengali": "দরজাটি খোলা।",
+    "phonetic": "Dorjaati khola.",
+    "french": "La porte est ouverte.",
+    "sent_at": "2026-06-09T19:00:30.771Z"
+  },
+  {
+    "id": 135,
+    "bengali": "আমি হাঁটছি।",
+    "phonetic": "Aami haantchhi.",
+    "french": "Je marche.",
+    "sent_at": "2026-06-09T19:00:30.771Z"
   }
 ]
