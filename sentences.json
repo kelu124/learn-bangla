@@ -943,5 +943,26 @@
     "phonetic": "Aami haantchhi.",
     "french": "Je marche.",
     "sent_at": "2026-06-09T19:00:30.771Z"
+  },
+  {
+    "id": 136,
+    "bengali": "বাতাস ঠান্ডা।",
+    "phonetic": "Baataash thanda.",
+    "french": "Le vent est froid.",
+    "sent_at": "2026-06-10T06:00:20.302Z"
+  },
+  {
+    "id": 137,
+    "bengali": "আমি ঘুমাতে যাই।",
+    "phonetic": "Aami ghumaate jaai.",
+    "french": "Je vais dormir.",
+    "sent_at": "2026-06-10T06:00:20.302Z"
+  },
+  {
+    "id": 138,
+    "bengali": "সে হাসছে।",
+    "phonetic": "She haashchhe.",
+    "french": "Il/Elle sourit.",
+    "sent_at": "2026-06-10T06:00:20.302Z"
   }
 ]
