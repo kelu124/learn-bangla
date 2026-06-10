@@ -964,5 +964,26 @@
     "phonetic": "She haashchhe.",
     "french": "Il/Elle sourit.",
     "sent_at": "2026-06-10T06:00:20.302Z"
+  },
+  {
+    "id": 139,
+    "bengali": "আমি রান্না করছি।",
+    "phonetic": "Aami raanna korchhi.",
+    "french": "Je cuisine.",
+    "sent_at": "2026-06-10T19:00:15.624Z"
+  },
+  {
+    "id": 140,
+    "bengali": "গাছটি লম্বা।",
+    "phonetic": "Gaachti lomba.",
+    "french": "L'arbre est grand.",
+    "sent_at": "2026-06-10T19:00:15.624Z"
+  },
+  {
+    "id": 141,
+    "bengali": "আমি স্কুলে যাই।",
+    "phonetic": "Aami skule jaai.",
+    "french": "Je vais à l'école.",
+    "sent_at": "2026-06-10T19:00:15.624Z"
   }
 ]
