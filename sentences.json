@@ -985,5 +985,26 @@
     "phonetic": "Aami skule jaai.",
     "french": "Je vais à l'école.",
     "sent_at": "2026-06-10T19:00:15.624Z"
+  },
+  {
+    "id": 142,
+    "bengali": "আমি ফল কিনি।",
+    "phonetic": "Aami phol kini.",
+    "french": "J'achète des fruits.",
+    "sent_at": "2026-06-11T06:00:13.942Z"
+  },
+  {
+    "id": 143,
+    "bengali": "জানালাটি বন্ধ।",
+    "phonetic": "Jaanalaati bondho.",
+    "french": "La fenêtre est fermée.",
+    "sent_at": "2026-06-11T06:00:13.942Z"
+  },
+  {
+    "id": 144,
+    "bengali": "আমি গান শুনি।",
+    "phonetic": "Aami gaan shuni.",
+    "french": "J'écoute de la musique.",
+    "sent_at": "2026-06-11T06:00:13.942Z"
   }
 ]
