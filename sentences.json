@@ -1006,5 +1006,26 @@
     "phonetic": "Aami gaan shuni.",
     "french": "J'écoute de la musique.",
     "sent_at": "2026-06-11T06:00:13.942Z"
+  },
+  {
+    "id": 145,
+    "bengali": "আমি কাজ করছি।",
+    "phonetic": "Aami kaaj korchhi.",
+    "french": "Je travaille.",
+    "sent_at": "2026-06-11T19:00:28.820Z"
+  },
+  {
+    "id": 146,
+    "bengali": "সূর্য উঠেছে।",
+    "phonetic": "Shurjo uthechhe.",
+    "french": "Le soleil s'est levé.",
+    "sent_at": "2026-06-11T19:00:28.820Z"
+  },
+  {
+    "id": 147,
+    "bengali": "আমি বাস ধরি।",
+    "phonetic": "Aami baash dhori.",
+    "french": "Je prends le bus.",
+    "sent_at": "2026-06-11T19:00:28.820Z"
   }
 ]
