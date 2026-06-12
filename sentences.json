@@ -1048,5 +1048,26 @@
     "phonetic": "Raat gobhir.",
     "french": "La nuit est profonde.",
     "sent_at": "2026-06-12T06:00:14.844Z"
+  },
+  {
+    "id": 151,
+    "bengali": "আমি দাঁত মাজি।",
+    "phonetic": "Aami daant maaji.",
+    "french": "Je me brosse les dents.",
+    "sent_at": "2026-06-12T19:00:27.800Z"
+  },
+  {
+    "id": 152,
+    "bengali": "ছেলেটি দৌড়াচ্ছে।",
+    "phonetic": "Chheleti douraachhe.",
+    "french": "Le garçon court.",
+    "sent_at": "2026-06-12T19:00:27.800Z"
+  },
+  {
+    "id": 153,
+    "bengali": "আমি টেবিল মুছি।",
+    "phonetic": "Aami tebil muchi.",
+    "french": "J'essuie la table.",
+    "sent_at": "2026-06-12T19:00:27.800Z"
   }
 ]
