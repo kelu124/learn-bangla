@@ -1027,5 +1027,26 @@
     "phonetic": "Aami baash dhori.",
     "french": "Je prends le bus.",
     "sent_at": "2026-06-11T19:00:28.820Z"
+  },
+  {
+    "id": 148,
+    "bengali": "বিড়ালটি ঘুমাচ্ছে।",
+    "phonetic": "Biraalti ghumaachhe.",
+    "french": "Le chat dort.",
+    "sent_at": "2026-06-12T06:00:14.844Z"
+  },
+  {
+    "id": 149,
+    "bengali": "আমি পোশাক পরি।",
+    "phonetic": "Aami poshak pori.",
+    "french": "Je m'habille.",
+    "sent_at": "2026-06-12T06:00:14.844Z"
+  },
+  {
+    "id": 150,
+    "bengali": "রাত গভীর।",
+    "phonetic": "Raat gobhir.",
+    "french": "La nuit est profonde.",
+    "sent_at": "2026-06-12T06:00:14.844Z"
   }
 ]
