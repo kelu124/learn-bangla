@@ -1069,5 +1069,26 @@
     "phonetic": "Aami tebil muchi.",
     "french": "J'essuie la table.",
     "sent_at": "2026-06-12T19:00:27.800Z"
+  },
+  {
+    "id": 154,
+    "bengali": "আমি বন্ধুকে ডাকি।",
+    "phonetic": "Aami bondhuke daaki.",
+    "french": "J'appelle mon ami.",
+    "sent_at": "2026-06-13T06:00:31.166Z"
+  },
+  {
+    "id": 155,
+    "bengali": "মাঠটি সবুজ।",
+    "phonetic": "Maathti shobuj.",
+    "french": "Le champ est vert.",
+    "sent_at": "2026-06-13T06:00:31.166Z"
+  },
+  {
+    "id": 156,
+    "bengali": "আমি ভাত রান্না করি।",
+    "phonetic": "Aami bhaat raanna kori.",
+    "french": "Je fais cuire du riz.",
+    "sent_at": "2026-06-13T06:00:31.166Z"
   }
 ]
