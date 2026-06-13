@@ -1090,5 +1090,26 @@
     "phonetic": "Aami bhaat raanna kori.",
     "french": "Je fais cuire du riz.",
     "sent_at": "2026-06-13T06:00:31.166Z"
+  },
+  {
+    "id": 157,
+    "bengali": "আমি আয়নায় দেখি।",
+    "phonetic": "Aami aaynay dekhi.",
+    "french": "Je me regarde dans le miroir.",
+    "sent_at": "2026-06-13T19:00:29.431Z"
+  },
+  {
+    "id": 158,
+    "bengali": "বৃষ্টি থেমেছে।",
+    "phonetic": "Brishti themechhe.",
+    "french": "La pluie s'est arrêtée.",
+    "sent_at": "2026-06-13T19:00:29.431Z"
+  },
+  {
+    "id": 159,
+    "bengali": "আমি চেয়ারে বসি।",
+    "phonetic": "Aami cheyaare boshi.",
+    "french": "Je m'assieds sur la chaise.",
+    "sent_at": "2026-06-13T19:00:29.431Z"
   }
 ]
