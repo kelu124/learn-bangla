@@ -1132,5 +1132,26 @@
     "phonetic": "Aami shaantar kaati.",
     "french": "Je nage.",
     "sent_at": "2026-06-14T06:00:24.354Z"
+  },
+  {
+    "id": 163,
+    "bengali": "মেঘ কালো।",
+    "phonetic": "Megh kaalo.",
+    "french": "Les nuages sont noirs.",
+    "sent_at": "2026-06-14T19:00:43.352Z"
+  },
+  {
+    "id": 164,
+    "bengali": "আমি বাড়ি ফিরি।",
+    "phonetic": "Aami baari phiri.",
+    "french": "Je rentre à la maison.",
+    "sent_at": "2026-06-14T19:00:43.352Z"
+  },
+  {
+    "id": 165,
+    "bengali": "সে কাঁদছে।",
+    "phonetic": "She kaandchhe.",
+    "french": "Il/Elle pleure.",
+    "sent_at": "2026-06-14T19:00:43.352Z"
   }
 ]
