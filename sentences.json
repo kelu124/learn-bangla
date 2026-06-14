@@ -1111,5 +1111,26 @@
     "phonetic": "Aami cheyaare boshi.",
     "french": "Je m'assieds sur la chaise.",
     "sent_at": "2026-06-13T19:00:29.431Z"
+  },
+  {
+    "id": 160,
+    "bengali": "আমি খবর পড়ি।",
+    "phonetic": "Aami khobor pori.",
+    "french": "Je lis les nouvelles.",
+    "sent_at": "2026-06-14T06:00:24.354Z"
+  },
+  {
+    "id": 161,
+    "bengali": "ঘরটি পরিষ্কার।",
+    "phonetic": "Ghoriti porishkaar.",
+    "french": "La pièce est propre.",
+    "sent_at": "2026-06-14T06:00:24.354Z"
+  },
+  {
+    "id": 162,
+    "bengali": "আমি সাঁতার কাটি।",
+    "phonetic": "Aami shaantar kaati.",
+    "french": "Je nage.",
+    "sent_at": "2026-06-14T06:00:24.354Z"
   }
 ]
