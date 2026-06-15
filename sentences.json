@@ -1174,5 +1174,26 @@
     "phonetic": "Aami chini.",
     "french": "Je connais.",
     "sent_at": "2026-06-15T06:00:43.314Z"
+  },
+  {
+    "id": 169,
+    "bengali": "আমি কলম নিই।",
+    "phonetic": "Aami kolom nii.",
+    "french": "Je prends un stylo.",
+    "sent_at": "2026-06-15T19:00:58.684Z"
+  },
+  {
+    "id": 170,
+    "bengali": "ঠান্ডা লাগছে।",
+    "phonetic": "Thaanda laagchhe.",
+    "french": "Il fait froid.",
+    "sent_at": "2026-06-15T19:00:58.684Z"
+  },
+  {
+    "id": 171,
+    "bengali": "আমি ঘর সাজাই।",
+    "phonetic": "Aami ghor shaajaai.",
+    "french": "Je décore la maison.",
+    "sent_at": "2026-06-15T19:00:58.684Z"
   }
 ]
