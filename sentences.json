@@ -1195,5 +1195,26 @@
     "phonetic": "Aami ghor shaajaai.",
     "french": "Je décore la maison.",
     "sent_at": "2026-06-15T19:00:58.684Z"
+  },
+  {
+    "id": 172,
+    "bengali": "আমি বাগান করি।",
+    "phonetic": "Aami baagan kori.",
+    "french": "Je jardine.",
+    "sent_at": "2026-06-16T06:00:42.496Z"
+  },
+  {
+    "id": 173,
+    "bengali": "আলো জ্বলছে।",
+    "phonetic": "Aalo jolchhe.",
+    "french": "La lumière brille.",
+    "sent_at": "2026-06-16T06:00:42.496Z"
+  },
+  {
+    "id": 174,
+    "bengali": "আমি ট্রেনে যাই।",
+    "phonetic": "Aami trene jaai.",
+    "french": "Je prends le train.",
+    "sent_at": "2026-06-16T06:00:42.496Z"
   }
 ]
