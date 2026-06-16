@@ -1216,5 +1216,26 @@
     "phonetic": "Aami trene jaai.",
     "french": "Je prends le train.",
     "sent_at": "2026-06-16T06:00:42.496Z"
+  },
+  {
+    "id": 175,
+    "bengali": "আমি ডাক্তারের কাছে যাই।",
+    "phonetic": "Aami daaktaarer kaachhe jaai.",
+    "french": "Je vais chez le médecin.",
+    "sent_at": "2026-06-16T19:00:48.752Z"
+  },
+  {
+    "id": 176,
+    "bengali": "সমুদ্র নীল।",
+    "phonetic": "Shomudro nil.",
+    "french": "La mer est bleue.",
+    "sent_at": "2026-06-16T19:00:48.752Z"
+  },
+  {
+    "id": 177,
+    "bengali": "আমি ছবি তুলি।",
+    "phonetic": "Aami chhobi tuli.",
+    "french": "Je prends des photos.",
+    "sent_at": "2026-06-16T19:00:48.752Z"
   }
 ]
