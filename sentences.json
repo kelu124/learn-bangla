@@ -1258,5 +1258,26 @@
     "phonetic": "Aami golpo boli.",
     "french": "Je raconte une histoire.",
     "sent_at": "2026-06-17T06:00:42.098Z"
+  },
+  {
+    "id": 181,
+    "bengali": "আমি বাজনা বাজাই।",
+    "phonetic": "Aami baajnaa baazaai.",
+    "french": "Je joue de la musique.",
+    "sent_at": "2026-06-17T19:00:47.619Z"
+  },
+  {
+    "id": 182,
+    "bengali": "রাস্তা দীর্ঘ।",
+    "phonetic": "Raasta dirgho.",
+    "french": "La route est longue.",
+    "sent_at": "2026-06-17T19:00:47.619Z"
+  },
+  {
+    "id": 183,
+    "bengali": "আমি চিনাবাদাম খাই।",
+    "phonetic": "Aami chinaabaadam khaai.",
+    "french": "Je mange des cacahuètes.",
+    "sent_at": "2026-06-17T19:00:47.619Z"
   }
 ]
