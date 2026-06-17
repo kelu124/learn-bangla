@@ -1237,5 +1237,26 @@
     "phonetic": "Aami chhobi tuli.",
     "french": "Je prends des photos.",
     "sent_at": "2026-06-16T19:00:48.752Z"
+  },
+  {
+    "id": 178,
+    "bengali": "আমি হাত ধুই।",
+    "phonetic": "Aami haat dhui.",
+    "french": "Je me lave les mains.",
+    "sent_at": "2026-06-17T06:00:42.098Z"
+  },
+  {
+    "id": 179,
+    "bengali": "পাহাড় উঁচু।",
+    "phonetic": "Paahar unchu.",
+    "french": "La montagne est haute.",
+    "sent_at": "2026-06-17T06:00:42.098Z"
+  },
+  {
+    "id": 180,
+    "bengali": "আমি গল্প বলি।",
+    "phonetic": "Aami golpo boli.",
+    "french": "Je raconte une histoire.",
+    "sent_at": "2026-06-17T06:00:42.098Z"
   }
 ]
