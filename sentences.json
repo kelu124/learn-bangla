@@ -1300,5 +1300,26 @@
     "phonetic": "Aami noukaay chori.",
     "french": "Je monte dans un bateau.",
     "sent_at": "2026-06-18T06:00:41.417Z"
+  },
+  {
+    "id": 187,
+    "bengali": "আমি বাজার থেকে আসি।",
+    "phonetic": "Aami baajaar theke aashi.",
+    "french": "Je reviens du marché.",
+    "sent_at": "2026-06-18T19:00:47.749Z"
+  },
+  {
+    "id": 188,
+    "bengali": "চাঁদ উঠেছে।",
+    "phonetic": "Chaand uthechhe.",
+    "french": "La lune s'est levée.",
+    "sent_at": "2026-06-18T19:00:47.749Z"
+  },
+  {
+    "id": 189,
+    "bengali": "আমি আম খাই।",
+    "phonetic": "Aami aam khaai.",
+    "french": "Je mange une mangue.",
+    "sent_at": "2026-06-18T19:00:47.749Z"
   }
 ]
