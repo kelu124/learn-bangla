@@ -1342,5 +1342,26 @@
     "phonetic": "Aami maatite boshi.",
     "french": "Je m'assieds par terre.",
     "sent_at": "2026-06-19T06:00:47.286Z"
+  },
+  {
+    "id": 193,
+    "bengali": "আমি গরু দেখি।",
+    "phonetic": "Aami goru dekhi.",
+    "french": "Je vois une vache.",
+    "sent_at": "2026-06-19T19:00:49.233Z"
+  },
+  {
+    "id": 194,
+    "bengali": "শীত আসছে।",
+    "phonetic": "Shit aashchhe.",
+    "french": "L'hiver arrive.",
+    "sent_at": "2026-06-19T19:00:49.233Z"
+  },
+  {
+    "id": 195,
+    "bengali": "আমি মোমবাতি জ্বালাই।",
+    "phonetic": "Aami mombati jwaalaai.",
+    "french": "J'allume une bougie.",
+    "sent_at": "2026-06-19T19:00:49.233Z"
   }
 ]
