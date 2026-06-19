@@ -1321,5 +1321,26 @@
     "phonetic": "Aami aam khaai.",
     "french": "Je mange une mangue.",
     "sent_at": "2026-06-18T19:00:47.749Z"
+  },
+  {
+    "id": 190,
+    "bengali": "আমি সকালের নাস্তা খাই।",
+    "phonetic": "Aami shokaler naasta khaai.",
+    "french": "Je prends le petit-déjeuner.",
+    "sent_at": "2026-06-19T06:00:47.286Z"
+  },
+  {
+    "id": 191,
+    "bengali": "বাতিটি নিভে গেছে।",
+    "phonetic": "Baatiti nibhe gechhe.",
+    "french": "La lumière s'est éteinte.",
+    "sent_at": "2026-06-19T06:00:47.286Z"
+  },
+  {
+    "id": 192,
+    "bengali": "আমি মাটিতে বসি।",
+    "phonetic": "Aami maatite boshi.",
+    "french": "Je m'assieds par terre.",
+    "sent_at": "2026-06-19T06:00:47.286Z"
   }
 ]
