@@ -1384,5 +1384,26 @@
     "phonetic": "Aami shiri diye uthi.",
     "french": "Je monte les escaliers.",
     "sent_at": "2026-06-20T06:00:48.966Z"
+  },
+  {
+    "id": 199,
+    "bengali": "আমি বই কিনি।",
+    "phonetic": "Aami boi kini.",
+    "french": "J'achète un livre.",
+    "sent_at": "2026-06-20T19:00:50.449Z"
+  },
+  {
+    "id": 200,
+    "bengali": "কুকুরটি ঘেউ করে।",
+    "phonetic": "Kukuriti gheu kore.",
+    "french": "Le chien aboie.",
+    "sent_at": "2026-06-20T19:00:50.449Z"
+  },
+  {
+    "id": 201,
+    "bengali": "আমি পাউরুটি খাই।",
+    "phonetic": "Aami pauruti khaai.",
+    "french": "Je mange du pain.",
+    "sent_at": "2026-06-20T19:00:50.449Z"
   }
 ]
