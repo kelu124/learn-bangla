@@ -1363,5 +1363,26 @@
     "phonetic": "Aami mombati jwaalaai.",
     "french": "J'allume une bougie.",
     "sent_at": "2026-06-19T19:00:49.233Z"
+  },
+  {
+    "id": 196,
+    "bengali": "আমি বাচ্চাকে খাওয়াই।",
+    "phonetic": "Aami baachhaake khaaowaai.",
+    "french": "Je nourris l'enfant.",
+    "sent_at": "2026-06-20T06:00:48.966Z"
+  },
+  {
+    "id": 197,
+    "bengali": "আকাশ পরিষ্কার।",
+    "phonetic": "Aakash porishkaar.",
+    "french": "Le ciel est dégagé.",
+    "sent_at": "2026-06-20T06:00:48.966Z"
+  },
+  {
+    "id": 198,
+    "bengali": "আমি সিঁড়ি দিয়ে উঠি।",
+    "phonetic": "Aami shiri diye uthi.",
+    "french": "Je monte les escaliers.",
+    "sent_at": "2026-06-20T06:00:48.966Z"
   }
 ]
