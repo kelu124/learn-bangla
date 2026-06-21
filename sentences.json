@@ -1426,5 +1426,26 @@
     "phonetic": "Aami oshudh khaai.",
     "french": "Je prends des médicaments.",
     "sent_at": "2026-06-21T06:00:50.932Z"
+  },
+  {
+    "id": 205,
+    "bengali": "আমি কলা খাই।",
+    "phonetic": "Aami kola khaai.",
+    "french": "Je mange une banane.",
+    "sent_at": "2026-06-21T19:00:59.290Z"
+  },
+  {
+    "id": 206,
+    "bengali": "দিনটি গরম।",
+    "phonetic": "Dinti gorom.",
+    "french": "La journée est chaude.",
+    "sent_at": "2026-06-21T19:00:59.290Z"
+  },
+  {
+    "id": 207,
+    "bengali": "আমি পথ খুঁজি।",
+    "phonetic": "Aami path khunji.",
+    "french": "Je cherche le chemin.",
+    "sent_at": "2026-06-21T19:00:59.290Z"
   }
 ]
