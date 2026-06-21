@@ -1405,5 +1405,26 @@
     "phonetic": "Aami pauruti khaai.",
     "french": "Je mange du pain.",
     "sent_at": "2026-06-20T19:00:50.449Z"
+  },
+  {
+    "id": 202,
+    "bengali": "আমি চশমা পরি।",
+    "phonetic": "Aami choshma pori.",
+    "french": "Je porte des lunettes.",
+    "sent_at": "2026-06-21T06:00:50.932Z"
+  },
+  {
+    "id": 203,
+    "bengali": "সন্ধ্যায় তারা ফোটে।",
+    "phonetic": "Shondhyaay taara phote.",
+    "french": "Les étoiles brillent le soir.",
+    "sent_at": "2026-06-21T06:00:50.932Z"
+  },
+  {
+    "id": 204,
+    "bengali": "আমি ওষুধ খাই।",
+    "phonetic": "Aami oshudh khaai.",
+    "french": "Je prends des médicaments.",
+    "sent_at": "2026-06-21T06:00:50.932Z"
   }
 ]
