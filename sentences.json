@@ -1447,5 +1447,26 @@
     "phonetic": "Aami path khunji.",
     "french": "Je cherche le chemin.",
     "sent_at": "2026-06-21T19:00:59.290Z"
+  },
+  {
+    "id": 208,
+    "bengali": "আমি ভোরে ওঠি।",
+    "phonetic": "Aami bhore othi.",
+    "french": "Je me lève à l'aube.",
+    "sent_at": "2026-06-22T06:00:58.467Z"
+  },
+  {
+    "id": 209,
+    "bengali": "ঘরে আলো আছে।",
+    "phonetic": "Ghore aalo aachhe.",
+    "french": "Il y a de la lumière dans la pièce.",
+    "sent_at": "2026-06-22T06:00:58.467Z"
+  },
+  {
+    "id": 210,
+    "bengali": "আমি মুরগি রান্না করি।",
+    "phonetic": "Aami murgi raanna kori.",
+    "french": "Je cuisine du poulet.",
+    "sent_at": "2026-06-22T06:00:58.467Z"
   }
 ]
